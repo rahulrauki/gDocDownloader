@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "gDocDownload",
+  "description": "Extension for downloading (protected) google drive media",
+  "version": "1.0",
+  "permissions": ["webRequest", "webRequestBlocking", "storage", "activeTab"],
+  "background": {
+    "service_worker": "service-worker/service-worker.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "images/gDocDownloader16.png",
+      "32": "images/gDocDownloader32.png"
+    },
+    "default_title": "Use to download media from Google Drive"
+  },
+  "icons": {
+    "16": "images/gDocDownloader16.png",
+    "32": "images/gDocDownloader32.png",
+    "48": "images/gDocDownloader48.png",
+    "128": "images/gDocDownloader128.png"
+  }
+}
