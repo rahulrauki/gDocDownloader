@@ -3,7 +3,16 @@
   "name": "gDocDownload",
   "description": "Extension for downloading (protected) google drive media",
   "version": "1.0",
-  "permissions": ["webRequest", "webRequestBlocking", "storage", "activeTab"],
+  "host_permissions": [
+    "https://*.google.com/drive/*",
+    "https://*.googleapis.com/*",
+    "https://*.youtube.com/*"
+  ],
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webRequest"
+  ],
   "background": {
     "service_worker": "service-worker/service-worker.js"
   },

@@ -1,0 +1,48 @@
+html {
+  height: 200px;
+  width: 250px;
+  padding: 0;
+  background: rgba(167,167,215,0.5);
+  border: solid 1px black;
+  border-radius : 3px;
+}
+
+.body {
+  height: 100%;
+  font-family: monospace;
+  font-size: 0.9rem;
+  background-repeat: no-repeat;
+}
+
+body > * {
+  margin: 5px;;
+}
+
+#media-list {
+  height: 100px;
+  width: 220px;
+  overflow: auto;
+  background-color: aliceblue;
+  padding: 5px;
+}
+
+#media-list a {
+  margin: 5px;
+  padding: 2px;
+}
+
+button {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  background : rgb(213, 207, 207);
+}
+
+a:link {
+  text-decoration: none;
+}
